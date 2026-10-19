@@ -129,4 +129,32 @@
     <string name="err_metric">حداقل یک اندازه‌گیری انتخاب کنید</string>
     <string name="err_dates">تاریخ پایان نباید قبل از تاریخ شروع باشد</string>
     <string name="measure_note">اندازه‌گیری‌ها طبق زمان‌بندی جمع‌آوری و به‌صورت یک خط برای هر اندازه‌گیری (مثلاً cpu: 12.5) ارسال می‌شوند. اندروید ممکن است زمان‌سنج‌ها را هنگام خواب گوشی به تأخیر بیندازد؛ برای فاصله‌های کوتاه و پایدار، برنامه را از بهینه‌سازی باتری مستثنا کنید. CPU کل دستگاه در نسخه‌های جدید اندروید مسدود است و به‌جایش load average ارسال می‌شود. کد USSD به دسترسی تلفن نیاز دارد.</string>
+
+    <string name="mobile_agent">عامل موبایل</string>
+    <string name="agent_title">عامل موبایل</string>
+    <string name="agent_enable">فعال‌سازی عامل</string>
+    <string name="agent_running_on">سرور HTTP روی پورت %1$d در حال اجراست</string>
+    <string name="agent_stopped">عامل خاموش است</string>
+    <string name="agent_a11y_on">سرویس Accessibility: متصل</string>
+    <string name="agent_a11y_off">سرویس Accessibility: فعال نیست - اکشن‌ها و دریافت UI کار نمی‌کنند</string>
+    <string name="agent_open_a11y">باز کردن تنظیمات Accessibility</string>
+    <string name="agent_connection">اتصال</string>
+    <string name="agent_copy_token">کپی توکن</string>
+    <string name="agent_new_token">توکن جدید</string>
+    <string name="agent_new_token_confirm">هر کلاینتی که از توکن قبلی استفاده کند رد می‌شود. ادامه می‌دهید؟</string>
+    <string name="agent_http_port">پورت HTTP (۱۰۲۴ تا ۶۵۵۳۵)</string>
+    <string name="agent_ws_port">پورت WebSocket (۱۰۲۴ تا ۶۵۵۳۵)</string>
+    <string name="agent_quick_test">آزمایش سریع</string>
+    <string name="agent_dump_ui">دریافت UI</string>
+    <string name="agent_test_screenshot">آزمایش اسکرین‌شات</string>
+    <string name="agent_ocr_toggle">فعال‌سازی OCR (تشخیص متن روی دستگاه)</string>
+    <string name="agent_view_log">مشاهدهٔ گزارش</string>
+    <string name="agent_evidence_count">%1$d فایل شواهد ذخیره شده</string>
+    <string name="agent_saved_as">ذخیره شد با نام %1$s</string>
+    <string name="evidence">شواهد</string>
+    <string name="copied">کپی شد</string>
+    <string name="saved">ذخیره شد</string>
+    <string name="err_port">دو پورت متفاوت بین ۱۰۲۴ و ۶۵۵۳۵ وارد کنید</string>
+    <string name="agent_service_description">به عامل موبایل اجازه می‌دهد صفحه را بخواند و برای تست خودکار، لمس، کشیدن و تایپ متن انجام دهد.</string>
+    <string name="agent_limits_note">نکات: برای پیدا و لمس‌شدن یک عنصر با انتخاب‌گر، آن عنصر باید به Accessibility نمایان باشد (لمس و کشیدن با مختصات همیشه کار می‌کند). اسکرین‌شات و OCR به اندروید ۱۱ به بالا نیاز دارند. «توقف اپ» فقط پروسه‌های پس‌زمینه را می‌کشد؛ اندروید اجازه نمی‌دهد یک اپ معمولی بدون روت، اپ دیگری را که در پیش‌زمینه است force-stop کند یا داده‌اش را پاک کند، برخلاف «adb shell am force-stop» که از کامپیوتر اجرا می‌شود. نصب APK هم به یک تأیید دستی کاربر نیاز دارد. عامل را فقط در شبکه‌ای که به آن اعتماد دارید روشن کنید؛ هرکس توکن را داشته باشد می‌تواند دستگاه را کنترل کند.</string>
 </resources>

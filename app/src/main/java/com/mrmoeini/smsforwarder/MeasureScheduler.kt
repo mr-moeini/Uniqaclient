@@ -63,6 +63,14 @@ class BootReceiver : BroadcastReceiver() {
             action != Intent.ACTION_TIMEZONE_CHANGED
         ) return
         MeasureScheduler.schedule(context)
+        if ((action == Intent.ACTION_BOOT_COMPLETED || action == Intent.ACTION_MY_PACKAGE_REPLACED) &&
+            AgentStore.isEnabled(context)
+        ) {
+            try {
+                AgentService.start(context)
+            } catch (_: Exception) {
+            }
+        }
     }
 }
 

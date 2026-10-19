@@ -129,4 +129,32 @@
     <string name="err_metric">Select at least one measurement</string>
     <string name="err_dates">End date must not be before the start date</string>
     <string name="measure_note">Measurements are collected on the schedule and sent as one line per measurement, for example cpu: 12.5. Android may delay timers while the phone sleeps; for reliable short intervals exclude this app from battery optimization. Whole-device CPU is blocked by newer Android versions, then the load average is sent instead. USSD codes need the phone permission.</string>
+
+    <string name="mobile_agent">Mobile Agent</string>
+    <string name="agent_title">Mobile Agent</string>
+    <string name="agent_enable">Enable Agent</string>
+    <string name="agent_running_on">HTTP server running on port %1$d</string>
+    <string name="agent_stopped">Agent is off</string>
+    <string name="agent_a11y_on">Accessibility service: connected</string>
+    <string name="agent_a11y_off">Accessibility service: not enabled - actions and UI dump will not work</string>
+    <string name="agent_open_a11y">Open Accessibility Settings</string>
+    <string name="agent_connection">CONNECTION</string>
+    <string name="agent_copy_token">Copy Token</string>
+    <string name="agent_new_token">New Token</string>
+    <string name="agent_new_token_confirm">Any client using the old token will be rejected. Continue?</string>
+    <string name="agent_http_port">HTTP port (1024-65535)</string>
+    <string name="agent_ws_port">WebSocket port (1024-65535)</string>
+    <string name="agent_quick_test">QUICK TEST</string>
+    <string name="agent_dump_ui">Dump UI</string>
+    <string name="agent_test_screenshot">Test Screenshot</string>
+    <string name="agent_ocr_toggle">Enable OCR (on-device text recognition)</string>
+    <string name="agent_view_log">View Log</string>
+    <string name="agent_evidence_count">%1$d evidence files saved</string>
+    <string name="agent_saved_as">Saved as %1$s</string>
+    <string name="evidence">Evidence</string>
+    <string name="copied">Copied</string>
+    <string name="saved">Saved</string>
+    <string name="err_port">Enter two different ports between 1024 and 65535</string>
+    <string name="agent_service_description">Lets the Mobile Agent read the screen and perform taps, swipes and text entry for automated testing.</string>
+    <string name="agent_limits_note">Notes: a UI element must be exposed to Accessibility to be found or tapped by selector (coordinate tap/swipe always works). Screenshots and OCR need Android 11+. "Stop app" only kills background processes - Android does not allow a normal app to force-stop a foreground app or clear another app\'s data without root, the way a host-side \"adb shell am force-stop\" can. Installing an APK still needs one user confirmation tap. Use the agent only on networks you trust - anyone with the token can control the device.</string>
 </resources>

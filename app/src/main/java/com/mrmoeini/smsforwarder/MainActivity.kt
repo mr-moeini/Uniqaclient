@@ -49,6 +49,9 @@ class MainActivity : AppCompatActivity() {
         measureValue = addRow(g1, R.drawable.ic_measure, 0xFFFF9500.toInt(), R.string.measure_forwarder) {
             startActivity(Intent(this, MeasureActivity::class.java))
         }
+        addRow(g1, R.drawable.ic_agent, 0xFF5856D6.toInt(), R.string.mobile_agent) {
+            startActivity(Intent(this, AgentActivity::class.java))
+        }
         addRow(g1, R.drawable.ic_device, 0xFF007AFF.toInt(), R.string.device_identity) {
             showDeviceDialog()
         }
