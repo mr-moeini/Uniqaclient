@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ios_bg">#F2F2F7</color>
+    <color name="ios_card">#FFFFFF</color>
+    <color name="ios_field">#F2F2F7</color>
+    <color name="ios_label">#000000</color>
+    <color name="ios_secondary">#8A8A8E</color>
+    <color name="ios_blue">#007AFF</color>
+    <color name="ios_green">#34C759</color>
+    <color name="ios_red">#FF3B30</color>
+    <color name="ios_switch_off">#E9E9EA</color>
+    <color name="ios_warning_bg">#FFF4CC</color>
+    <color name="ios_warning_text">#7A5C00</color>
+    <color name="ios_separator">#C6C6C8</color>
+    <bool name="light_bars">true</bool>
+</resources>

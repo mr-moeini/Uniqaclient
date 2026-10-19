@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/IOSSection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sec_api" />
+
+                <EditText
+                    android:id="@+id/etUrl"
+                    style="@style/IOSField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_card_field"
+                    android:hint="@string/api_url_hint"
+                    android:inputType="textUri"
+                    android:textDirection="ltr" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvMethod"
+                        style="@style/IOSField"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="6dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_card_field"
+                        android:clickable="true"
+                        android:focusable="true" />
+
+                    <TextView
+                        android:id="@+id/tvFormat"
+                        style="@style/IOSField"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:layout_weight="1.4"
+                        android:background="@drawable/bg_card_field"
+                        android:clickable="true"
+                        android:focusable="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/customBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/etContentType"
+                        style="@style/IOSField"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/bg_card_field"
+                        android:hint="@string/content_type_hint"
+                        android:inputType="textNoSuggestions"
+                        android:textDirection="ltr" />
+
+                    <EditText
+                        android:id="@+id/etBody"
+                        style="@style/IOSField"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/bg_card_field"
+                        android:fontFamily="monospace"
+                        android:gravity="top|start"
+                        android:hint="@string/body_template_hint"
+                        android:inputType="textMultiLine|textNoSuggestions"
+                        android:minLines="4"
+                        android:textDirection="ltr" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="6dp"
+                        android:text="@string/placeholders_help"
+                        android:textColor="@color/ios_secondary"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    style="@style/IOSSection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sec_auth" />
+
+                <TextView
+                    android:id="@+id/tvAuth"
+                    style="@style/IOSField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_card_field"
+                    android:clickable="true"
+                    android:focusable="true" />
+
+                <EditText
+                    android:id="@+id/etTokenUrl"
+                    style="@style/IOSField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_card_field"
+                    android:hint="@string/oauth_token_url"
+                    android:inputType="textUri"
+                    android:textDirection="ltr" />
+
+                <EditText
+                    android:id="@+id/etAuthUser"
+                    style="@style/IOSField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_card_field"
+                    android:inputType="textNoSuggestions"
+                    android:textDirection="ltr" />
+
+                <EditText
+                    android:id="@+id/etAuthName"
+                    style="@style/IOSField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_card_field"
+                    android:inputType="textNoSuggestions"
+                    android:textDirection="ltr" />
+
+                <EditText
+                    android:id="@+id/etAuthSecret"
+                    style="@style/IOSField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_card_field"
+                    android:inputType="textPassword"
+                    android:textDirection="ltr" />
+
+                <EditText
+                    android:id="@+id/etScope"
+                    style="@style/IOSField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_card_field"
+                    android:hint="@string/oauth_scope"
+                    android:inputType="textNoSuggestions"
+                    android:textDirection="ltr" />
+
+                <TextView
+                    style="@style/IOSSection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sec_options" />
+
+                <EditText
+                    android:id="@+id/etHeaders"
+                    style="@style/IOSField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_card_field"
+                    android:fontFamily="monospace"
+                    android:gravity="top|start"
+                    android:hint="@string/headers_hint"
+                    android:inputType="textMultiLine|textNoSuggestions"
+                    android:minLines="3"
+                    android:textDirection="ltr" />
+
+                <EditText
+                    android:id="@+id/etTimeout"
+                    style="@style/IOSField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_card_field"
+                    android:hint="@string/timeout_hint"
+                    android:inputType="number"
+                    android:maxLength="3" />
+
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/swInsecure"
+                    style="@style/IOSSwitch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/insecure_ssl"
+                    android:textColor="@color/ios_label"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnTestApi"
+                    style="@style/IOSTextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/btn_test_api" />
+            </LinearLayout>
