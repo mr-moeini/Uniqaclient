@@ -1,0 +1,43 @@
+run: 39313540000  sha: dd8174a1be4767e54abc030aae868f49fe5e6f8c  status: success
+=== errors ===
+=== tail ===
+> Task :app:checkDebugDuplicateClasses
+> Task :app:processDebugResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:mergeLibDexDebug
+
+> Task :app:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libmlkit_google_ocr_pipeline.so.
+
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:mergeExtDexDebug
+
+> Task :app:compileDebugKotlin
+w: file:///home/runner/work/Uniqaclient/Uniqaclient/app/src/main/java/com/mrmoeini/smsforwarder/AgentAccessibilityService.kt:48:18 'recycle(): Unit' is deprecated. Deprecated in Java
+w: file:///home/runner/work/Uniqaclient/Uniqaclient/app/src/main/java/com/mrmoeini/smsforwarder/AgentAccessibilityService.kt:101:34 'recycle(): Unit' is deprecated. Deprecated in Java
+w: file:///home/runner/work/Uniqaclient/Uniqaclient/app/src/main/java/com/mrmoeini/smsforwarder/AgentAccessibilityService.kt:119:36 'recycle(): Unit' is deprecated. Deprecated in Java
+w: file:///home/runner/work/Uniqaclient/Uniqaclient/app/src/main/java/com/mrmoeini/smsforwarder/AgentAccessibilityService.kt:122:15 'recycle(): Unit' is deprecated. Deprecated in Java
+w: file:///home/runner/work/Uniqaclient/Uniqaclient/app/src/main/java/com/mrmoeini/smsforwarder/AgentAccessibilityService.kt:132:18 'recycle(): Unit' is deprecated. Deprecated in Java
+w: file:///home/runner/work/Uniqaclient/Uniqaclient/app/src/main/java/com/mrmoeini/smsforwarder/AgentAccessibilityService.kt:141:18 'recycle(): Unit' is deprecated. Deprecated in Java
+w: file:///home/runner/work/Uniqaclient/Uniqaclient/app/src/main/java/com/mrmoeini/smsforwarder/AgentAccessibilityService.kt:152:18 'recycle(): Unit' is deprecated. Deprecated in Java
+w: file:///home/runner/work/Uniqaclient/Uniqaclient/app/src/main/java/com/mrmoeini/smsforwarder/AgentAccessibilityService.kt:163:18 'recycle(): Unit' is deprecated. Deprecated in Java
+w: file:///home/runner/work/Uniqaclient/Uniqaclient/app/src/main/java/com/mrmoeini/smsforwarder/AgentAccessibilityService.kt:174:18 'recycle(): Unit' is deprecated. Deprecated in Java
+w: file:///home/runner/work/Uniqaclient/Uniqaclient/app/src/main/java/com/mrmoeini/smsforwarder/AgentAccessibilityService.kt:192:18 'recycle(): Unit' is deprecated. Deprecated in Java
+w: file:///home/runner/work/Uniqaclient/Uniqaclient/app/src/main/java/com/mrmoeini/smsforwarder/AppController.kt:49:30 Parameter 'packageName' is never used
+w: file:///home/runner/work/Uniqaclient/Uniqaclient/app/src/main/java/com/mrmoeini/smsforwarder/UiNode.kt:69:27 'recycle(): Unit' is deprecated. Deprecated in Java
+
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugGlobalSynthetics
+> Task :app:processDebugJavaRes
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+gradle/actions: Writing build results to /home/runner/work/_temp/.gradle-actions/build-results/__run_2-1792439120033.json
+
+BUILD SUCCESSFUL in 44s
+37 actionable tasks: 37 executed
